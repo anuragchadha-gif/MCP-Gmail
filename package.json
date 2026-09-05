@@ -1,0 +1,25 @@
+{
+  "name": "multi-gmail-mcp",
+  "version": "1.0.0",
+  "description": "MCP server exposing several Gmail accounts to Claude at once, read-only.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "auth": "node auth.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mcp",
+    "gmail",
+    "claude",
+    "model-context-protocol"
+  ],
+  "author": "Mohit Garg",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "googleapis": "^176.0.0",
+    "open": "^11.0.1"
+  }
+}

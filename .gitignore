@@ -1,0 +1,11 @@
+node_modules/
+credentials.json
+tokens/
+
+# Never commit real OAuth material. credentials.json holds the client id and
+# secret; tokens/ holds refresh tokens for live mailboxes.
+credentials.json
+tokens/
+tokens/*.json
+*.log
+.DS_Store
